@@ -84,7 +84,8 @@ justify-content: space-between;
 .w-2{
     display: flex;
 align-items:center;
-justify-content: center; 
+justify-content: space-between; 
+
 /* height: 151px;
 width: 51px; */
 }
@@ -95,16 +96,83 @@ width: 51px; */
     
     font-family: Merriweather;
     font-size: 50px;
-    font-weight: 900;
+    font-weight: 50px;
     line-height: 88px;
     letter-spacing: 7.04px;
 }
 .w-4{
     color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
 
+}
+
+.dis{
+    padding: 130px;
+    border-radius: 10px;
+    background:#FFF8f3;
+    margin: 50px 0;
+}
+.tit{
+
+    color:#070211;;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+    background-color:;
+}
+.dot{
+    color: #F00;
+
+text-align: center;
 font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-margin-left: 50px;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px; 
+text-transform: capitalize;
+}
+.btn{
+    color:#FFF;
+    background-color: #F00;
+    text-align: center;
+}
+.title{
+    color: #F00;
 
+text-align: center;
+font-size: 24px;
+font-weight: 500;
+font-family: Inter;
+}
+.title-1{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-align: center;
+}
+.title-2{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; 
+}
+.title-3{color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+.title-4{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; 
 }
