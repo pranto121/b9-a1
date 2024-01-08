@@ -21,7 +21,7 @@ height: 600px;
 
 }
 .content h3 {
-    color: wheat;
+    color: rgb(226, 217, 200);
     font-size: 32px;
     font-weight: 400;
     font-family: Merriweather;
@@ -292,10 +292,12 @@ line-height: 32px;
 .prodact-seaction{
     margin: 10%;
     border-radius: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
+    /* display: flex; */
 
+    /* flex-wrap: wrap; */
+    gap: 40px;
+display: grid;
+  grid-template-columns: auto auto auto;
 }
 .product-image{
     transition: transform .2s;
