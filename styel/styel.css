@@ -10,7 +10,7 @@ flex-direction:column;
 align-items: center ;
    justify-content: center; 
    background-image: url("../resources/Banner\ Image.png");
-   filter: brightness(50%);
+   /* filter: brightness(60%); */
    height: 600px;
    padding: 50px 140px;
    background-repeat: no-repeat;
@@ -21,7 +21,7 @@ height: 600px;
 
 }
 .content h3 {
-    color: #f0e8e8;
+    color: wheat;
     font-size: 32px;
     font-weight: 400;
     font-family: Merriweather;
@@ -30,7 +30,7 @@ height: 600px;
 
 }
 .content h2 {
-    color: #f5ebeb;
+    color:rgb(209, 188, 188);
     font-family: Merriweather;
     font-weight: 900;
     line-height: 95px;
@@ -113,7 +113,8 @@ ruby-position: right;
 .dis{
     padding: 130px;
     border-radius: 10px;
-    background:#ecc3a6;
+    /* background:#ecc3a6; */
+    background:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     width: 1240px;
     margin: 50px 0;
     display: flex;
@@ -286,4 +287,94 @@ line-height: 32px;
 .prodact-seaction{
     margin: 10%;
     border-radius: 15px;
+    /* display: flex; */
+    /* gap: 20px; */
+}
+.Subscribe{
+    text-align: center;
+    padding: 130px;
+    border-radius: 10px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1240px;
+    margin: 50px 0;
+    /* display: flex; */
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.Subscribe-image{
+    width: 150px;
+height: 150px;
+}
+.Subscribe-title{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+
+.Subscribe-caption{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; 
+}
+.btn-tag{
+    color: #FFF;
+    background: #F00;
+    /* background-color: #F00; */
+}
+
+.footer{
+    padding: 130px;
+    border-radius: 10px;
+    background: #070211;
+    width: 1240px;
+    margin: 50px 0;
+    /* display: flex; */
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.numbar{
+display: flex;
+    width: 50%;
+    gap: 700px;
+}
+.big-fot{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px; 
+    
+}
+
+.numbar-footer{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;  
+}
+.sosal-link{
+    text-align: center;
+}
+.dawon{
+    display: flex;
+    gap: 700px;
+}
+.dawon-1{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.dawon-2{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
 }
