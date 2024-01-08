@@ -107,7 +107,8 @@ line-height: 30px;
     background: #070211;
 }
 .welcome-image{
-    
+height: 500px;
+ruby-position: right;
 }
 .dis{
     padding: 130px;
@@ -152,6 +153,7 @@ text-transform: capitalize;
 .best-offer{
     display: flex;
     justify-content: space-between;
+    margin: 10%;
 }
 .title{
     color: #F00;
@@ -241,4 +243,47 @@ font-size: 20px;
 font-weight: 500;
 line-height: 32px;
 
+}
+
+.main-images{
+
+    display: flex;
+}
+.Image{
+    width: 429px;
+height: 433px;
+border-radius: 16px 16px 0px 0px;
+}
+
+.gift-coner{
+margin: 10%;
+}
+
+.gift{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+
+}
+
+.Awesome{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+text-transform: capitalize;
+}
+
+.caption{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+.prodact-seaction{
+    margin: 10%;
+    border-radius: 15px;
 }
