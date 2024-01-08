@@ -10,8 +10,9 @@ flex-direction:column;
 align-items: center ;
    justify-content: center; 
    background-image: url("../resources/Banner\ Image.png");
-   
-   
+   filter: brightness(50%);
+   height: 600px;
+   padding: 50px 140px;
    background-repeat: no-repeat;
    background-size: contain;
 background-position: center;
@@ -20,7 +21,7 @@ height: 600px;
 
 }
 .content h3 {
-    color: #fff;
+    color: #f0e8e8;
     font-size: 32px;
     font-weight: 400;
     font-family: Merriweather;
@@ -29,7 +30,7 @@ height: 600px;
 
 }
 .content h2 {
-    color: #fff;
+    color: #f5ebeb;
     font-family: Merriweather;
     font-weight: 900;
     line-height: 95px;
@@ -63,57 +64,62 @@ font-weight: 700;
 }
 
 
-.welcome-section{
+.welcome{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-
-#welcome{
     background-image: url("../resources/Vectorrr.png");
     background-repeat: no-repeat;
-    background-size: contain;
- background-position: center;
- height: 600px;
- width: 1240px;
+    padding: 50px 140px;
+   background-repeat: no-repeat;
+   background-size: contain;
+background-position: center;
+height: 600px;
+width: 1650px;
 display: flex;
-justify-content: space-between;
- 
+margin-top: 40px;
+margin-bottom: 40px;
 }
-.w-2{
-    display: flex;
-align-items:center;
-justify-content: space-between; 
 
-/* height: 151px;
-width: 51px; */
-}
-.w3{
-    margin-left:50px;
+.welcame-section{
     color: #FFF;
-    padding-top: 50px;
-    
-    font-family: Merriweather;
-    font-size: 50px;
-    font-weight: 50px;
-    line-height: 88px;
-    letter-spacing: 7.04px;
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+letter-spacing: 7.04px;
+
 }
-.w-4{
+ 
+.text-section{
     color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px; 
 
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
 }
-
+.welcome-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    background: #070211;
+}
+.welcome-image{
+    
+}
 .dis{
     padding: 130px;
     border-radius: 10px;
-    background:#FFF8f3;
+    background:#ecc3a6;
+    width: 1240px;
     margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
 }
 .tit{
 
@@ -139,29 +145,35 @@ text-transform: capitalize;
 .btn{
     color:#FFF;
     background-color: #F00;
-    text-align: center;
+    bottom: center;
+
+   
+}
+.best-offer{
+    display: flex;
+    justify-content: space-between;
 }
 .title{
     color: #F00;
 
-text-align: center;
 font-size: 24px;
 font-weight: 500;
 font-family: Inter;
+
 }
 .title-1{
     color: #070211;
 font-family: Merriweather;
 font-size: 48px;
 font-weight: 900;
-text-align: center;
 }
-.title-2{
+.descaption{
     color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
 font-size: 20px;
 font-weight: 400;
 line-height: 32px; 
+
 }
 .title-3{color: #F00;
     font-family: Inter;
@@ -169,10 +181,64 @@ line-height: 32px;
     font-weight: 700;
     
 }
-.title-4{
+
+.title-5
+    width: 140px;
+height: 140px
+
+.clomn-2{
+    /* text-align: right; */
+    
+}
+section cloam{
+    display: flex;
+}
+
+.carcal{
+    text-align: center;
+}
+.eill{
+    /* border: 30px solid red; */
+    border-radius: 50%;
+    /* width: 463px; */
+    /* height: 463px; */
+
+}
+.eill-img{
+    /* width: 364px; */
+    /* height: 364px; */
+border-radius: 50%;
+padding-top:0;
+}
+
+
+.FUNCTIONAL{
+    text-align: center;
+}
+
+.f-1{
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.f-2{
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+}
+.holi{
+    color: #F00;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+}
+.f-3{
     color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
 font-size: 20px;
-font-weight: 400;
-line-height: 32px; 
+font-weight: 500;
+line-height: 32px;
+
 }
